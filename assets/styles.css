@@ -241,6 +241,9 @@ body::-webkit-scrollbar-thumb {
     .news-card {
         width:25%;
     }
+    .bot-1, .bot-2, .bot-3, .bot-4, .bot-5 {
+        height:auto;
+    }
 }
 
 @media screen and (max-width:1300px) {
@@ -264,6 +267,17 @@ body::-webkit-scrollbar-thumb {
     .cards {
         width:90%;
     }
+    .bots {
+        margin-top:50px !important;
+    }
+    .bots, .bots-2 {
+        display:block;
+        margin:0 auto;
+    }
+    .bot-1, .bot-2, .bot-3, .bot-4, .bot-5, .new-bot{
+        width:80%;
+        margin:20px auto;
+    }
 }
 
 @media screen and (max-width:830px) {
@@ -281,6 +295,11 @@ body::-webkit-scrollbar-thumb {
 
     .links {
         width:inherit;
+    }
+
+    .bot-1, .bot-2, .bot-3, .bot-4, .bot-5, .new-bot{
+        width:90%;
+        margin:20px auto;
     }
 }
 
