@@ -198,7 +198,7 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
 }
 
-.bots, .bots-2 {
+.bots, .bots-2, .new-bot {
     display:flex;
     width:80%;
     margin:50px auto;
@@ -219,11 +219,11 @@ body::-webkit-scrollbar-thumb {
     width:45%;
 }
 
-.new-bot {
-    width:45%;
+.new {
+    width:60%;
     margin:auto;
-    background:#1a202c;
-    padding:10px;
+    padding: 10px;
+    background:#2f4570;
     border-radius: 15px;
     height:auto;
     color:#FAFAFA;
@@ -241,7 +241,7 @@ body::-webkit-scrollbar-thumb {
     .news-card {
         width:25%;
     }
-    .bot-1, .bot-2, .bot-3, .bot-4, .bot-5 {
+    .bot-1, .bot-2, .bot-3, .bot-4, .bot-5, .new {
         height:auto;
     }
 }
@@ -274,8 +274,8 @@ body::-webkit-scrollbar-thumb {
         display:block;
         margin:0 auto;
     }
-    .bot-1, .bot-2, .bot-3, .bot-4, .bot-5, .new-bot{
-        width:80%;
+    .bot-1, .bot-2, .bot-3, .bot-4, .bot-5, .new{
+        width:100%;
         margin:20px auto;
     }
 }
@@ -297,7 +297,11 @@ body::-webkit-scrollbar-thumb {
         width:inherit;
     }
 
-    .bot-1, .bot-2, .bot-3, .bot-4, .bot-5, .new-bot{
+    .bots, .bots-2, .new-bot {
+        width:100%;
+    }
+
+    .bot-1, .bot-2, .bot-3, .bot-4, .bot-5, .new{
         width:90%;
         margin:20px auto;
     }
