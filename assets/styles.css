@@ -215,8 +215,17 @@ body::-webkit-scrollbar-thumb {
     color:#FAFAFA;
 }
 
+.bot-1, .bot-2, .bot-3 {
+    background:#333f57;
+}
+
 .bot-4, .bot-5 {
+    height:auto;
     width:45%;
+}
+
+.bot-4 b, .bot-5 b {
+    font-size:1.2em;
 }
 
 .new {
