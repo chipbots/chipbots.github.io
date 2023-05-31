@@ -17,7 +17,7 @@ mode.addEventListener('click', () => {
     darkmode = 1
     body.classList.toggle('dark-body')
     mode.classList.toggle('dark-mode-btn')
-    githubbtn.classList.toggle('dark-mode-btn')
+    /*githubbtn.classList.toggle('dark-mode-btn')
     twitterbtn.classList.toggle('dark-mode-btn')
     /*discordbtn.classList.toggle('dark-mode-btn')*/
     mlcard.classList.toggle('dark-ml-card')
@@ -30,7 +30,7 @@ mode.addEventListener('click', () => {
     darkmode = 0
     body.classList.toggle('dark-body')
     mode.classList.toggle('dark-mode-btn')
-    githubbtn.classList.toggle('dark-mode-btn')
+    /*githubbtn.classList.toggle('dark-mode-btn')
     twitterbtn.classList.toggle('dark-mode-btn')
     /*discordbtn.classList.toggle('dark-mode-btn')*/
     mlcard.classList.toggle('dark-ml-card')
